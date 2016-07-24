@@ -21,6 +21,8 @@
 		96A40DCB1D43E3ED007870F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96A40DC91D43E3ED007870F0 /* LaunchScreen.storyboard */; };
 		96A40DD61D43E3ED007870F0 /* firebase_username_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A40DD51D43E3ED007870F0 /* firebase_username_testTests.swift */; };
 		96A40DE11D43E3ED007870F0 /* firebase_username_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A40DE01D43E3ED007870F0 /* firebase_username_testUITests.swift */; };
+		96D0CF401D45747800B5CCFC /* FriendTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D0CF3F1D45747800B5CCFC /* FriendTableViewController.swift */; };
+		96D0CF421D457CBF00B5CCFC /* FriendTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D0CF411D457CBF00B5CCFC /* FriendTableView.swift */; };
 		96F7736F1D43F5FB0002A792 /* TabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F7736E1D43F5FB0002A792 /* TabController.swift */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +61,8 @@
 		96A40DDC1D43E3ED007870F0 /* firebase username testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "firebase username testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96A40DE01D43E3ED007870F0 /* firebase_username_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firebase_username_testUITests.swift; sourceTree = "<group>"; };
 		96A40DE21D43E3ED007870F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96D0CF3F1D45747800B5CCFC /* FriendTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendTableViewController.swift; sourceTree = "<group>"; };
+		96D0CF411D457CBF00B5CCFC /* FriendTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendTableView.swift; sourceTree = "<group>"; };
 		96F7736E1D43F5FB0002A792 /* TabController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabController.swift; sourceTree = "<group>"; };
 		99F2B096E0BEA028FB5DF498 /* Pods_firebase_username_testUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_firebase_username_testUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B568C3BF450EC1D54A3C29E7 /* Pods-firebase username test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebase username test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-firebase username test/Pods-firebase username test.debug.xcconfig"; sourceTree = "<group>"; };
@@ -137,6 +141,8 @@
 				96A40DC41D43E3ED007870F0 /* Main.storyboard */,
 				9687A58B1D444DED008AE97E /* EditViewController.swift */,
 				96F7736E1D43F5FB0002A792 /* TabController.swift */,
+				96D0CF3F1D45747800B5CCFC /* FriendTableViewController.swift */,
+				96D0CF411D457CBF00B5CCFC /* FriendTableView.swift */,
 				96A40DC71D43E3ED007870F0 /* Assets.xcassets */,
 				96A40DC91D43E3ED007870F0 /* LaunchScreen.storyboard */,
 				96A40DCC1D43E3ED007870F0 /* Info.plist */,
@@ -442,6 +448,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9687A58C1D444DED008AE97E /* EditViewController.swift in Sources */,
+				96D0CF421D457CBF00B5CCFC /* FriendTableView.swift in Sources */,
+				96D0CF401D45747800B5CCFC /* FriendTableViewController.swift in Sources */,
 				96A40DC31D43E3ED007870F0 /* ViewController.swift in Sources */,
 				96F7736F1D43F5FB0002A792 /* TabController.swift in Sources */,
 				96A40DC11D43E3ED007870F0 /* AppDelegate.swift in Sources */,

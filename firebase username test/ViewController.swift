@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     }
     @IBAction func saveButtonClicked(sender: UIStoryboardSegue)
     {
-        //let sender.name.text
+        //extraneous but too lazy to change on main storyboard
     }
 
     var database=FIRDatabaseReference.init()
@@ -38,7 +38,7 @@ class ViewController: UIViewController {
         //let storageRef = FIRStorage.storage().reference()
 
         updateprofile()
-        userprofileref.updateChildValues(["test": "test"])
+        //userprofileref.updateChildValues(["test": "test"]) FOR REFERENCE
         userprofileref.observeSingleEventOfType(.Value, withBlock: { (snapshot) in
             self.name.text=snapshot.value!["name"] as! String
             self.address.text=snapshot.value!["address"] as! String
